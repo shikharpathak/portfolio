@@ -1,0 +1,39 @@
+.welcome {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/src/images/pic12.jpg);
+  height: 100vh;
+  background-size: cover;
+  /* display: inline-block; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.contents {
+  color: bisque;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.home_name {
+  border-bottom: 5px solid #ff7f50;
+}
+.link-btn {
+  text-decoration: none;
+  color: #ff7f50;
+  display: flex;
+  justify-content: center;
+  /* border: 2px solid red; */
+  width: auto;
+}
+
+.custom-btn {
+  /* border: #fff !important; */
+  text-decoration: none;
+  color: #ff7f50 !important;
+}
+.custom-btn:hover {
+  color: black;
+  transform: scale(1.1);
+  background-color: #ff7f5000 !important;
+}

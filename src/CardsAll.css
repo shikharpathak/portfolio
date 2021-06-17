@@ -1,0 +1,17 @@
+/* .main_cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+.card_container {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+}
+.card_div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+}

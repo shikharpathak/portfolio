@@ -1,0 +1,12 @@
+* {
+  color: #c79554;
+  /* background-color: cornflowerblue; */
+}
+.car {
+  display: "none";
+  height: 100px;
+  width: 200px;
+}
+.nav {
+  position: absolute;
+}

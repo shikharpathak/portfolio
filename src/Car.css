@@ -1,0 +1,21 @@
+/* .carousel {
+  display: block;
+  width: 100vw;
+  height: 200px;
+  margin: auto;
+} */
+.main_div {
+  display: flex;
+  justify-content: center;
+}
+.car_div {
+  /* display: none; */
+  width: 50vw;
+  /* height: 60px; */
+}
+@media (max-width: 900px) {
+  .carousel {
+    width: auto;
+    height: auto;
+  }
+}
